@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var url = NSURL(string:"http://lukevers.com/")
-        var req = NSURLRequest(URL:url!)
+        let url = NSURL(string:"http://www.youtube.com/")
+        let req = NSURLRequest(URL:url!)
         self.webView!.loadRequest(req)
     }
 
